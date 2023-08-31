@@ -1,2 +1,2 @@
 # Simple-form
-Simple form in JavaScript
+To jest strona z prostym formularzem obsłużonym przez JavaScript. Napisana w HTML, CSS oraz JavaScript. Do stworzenia tej strony zainspirował mnie filmik na YouTube pokazujący jak stworzyć dobrze wyglądający formualrz w HTML i CSS w szklanym wyglądzie. Dodałem do niego trochę funkcjonalności jak: Strona z komunikatem Komunikat.html, JavaScript który obsługuje formularz, oraz wyświetla przycisk potwierdzający wysłanie formularza, oraz dodaje dane do LocalStorage.
