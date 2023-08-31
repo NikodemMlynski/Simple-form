@@ -1,0 +1,44 @@
+:root {
+    --color-dark: #361999;
+    --color-light: #78fff1;
+}
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    color: white;
+
+}
+
+
+body {
+    background: linear-gradient(
+        to top right,
+        var(--color-dark),
+        var(--color-light)
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+    height: 100vh;
+    overflow: hidden;
+    width: 100vw;
+}
+
+#result {
+    background: linear-gradient(
+        to left, 
+        rgba(255, 255, 255, 0.15),
+        rgba(255, 255, 255, 0.40)
+    );
+    backdrop-filter: blur(8px);
+    border-radius: 15px;
+    box-shadow: 0px 8px 24px 0 rgba(0,0,0, 0.3);
+    max-height: 100%;
+    padding: 36px;
+    text-align: center;
+    line-height: 300%;
+}
